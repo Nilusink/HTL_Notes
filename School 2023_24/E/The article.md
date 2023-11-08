@@ -1,6 +1,6 @@
 ---
 title: The article
-updated: 2023-10-25 07:10:44Z
+updated: 2023-11-07 07:21:27Z
 created: 2023-10-24 06:43:39Z
 latitude: 47.26921240
 longitude: 11.40410240

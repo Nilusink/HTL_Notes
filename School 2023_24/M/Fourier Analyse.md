@@ -1,7 +1,7 @@
 ---
-title: Übersichtsanalyse
-updated: 2023-11-08 09:03:17Z
-created: 2023-10-25 08:12:02Z
+title: Fourier Analyse
+updated: 2023-11-08 08:58:15Z
+created: 2023-11-06 09:29:53Z
 latitude: 47.26921240
 longitude: 11.40410240
 altitude: 0.0000
@@ -105,37 +105,8 @@ The note discusses the concepts of distribution and density in geography. It exp
     }
 </style>
 
-## Übersichtsanalyse
-### Fragen
-Notiere...
-* das Thema des Textes
-* die Textsorte
-* Besonderheiten des Textes.
-* Ideen zu Funktino und Wirkung des Textes
-
-Text 1: Zu Ehren einer Pappel
-Text 2: Mia san mia
-Text 3: Sind wir alle Voyeure?
-
-
-
-* Thema: Abschied nehmen (von Baum)
-* Textsorte: Nachruf
-* Besonderheiten: Baum
-* Gliederung: 
-
-<br>
-
-* Thema: Bayrische Identität
-* Textsorte: Reportage
-* Besonderheiten: Seht direkt und fast schon beleidigende Art
-* Ideen und Wirkung: Spöttisch
-
-<br>
-
-* Thema: Schaulust
-* Textsorte: Essay
-* Besonderheiten: viele Rethorische Mittel
-* Gliederung: 
-
-
+![Einführung Fourier Analyse](../../_resources/88fafd0674df3717a9af34da46f91ba0.png)
+B.S. 64
+$$
+\Large f(t) = { a_0 \over 2 } + \sum^{ \infty }_{ n=1 } ( a_n * \cos( n \omega_0 t ) + b_n * \sin( n \omega_0 t) ) \ \bigg |_{ \Large { \omega_0 = { 2\pi \over T } } }
+$$

@@ -1,6 +1,6 @@
 ---
 title: Taylorreihen
-updated: 2023-09-27 09:40:38Z
+updated: 2023-11-06 08:21:36Z
 created: 2023-09-18 06:57:55Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -96,7 +96,7 @@ altitude: 0.0000
 <date>18/09/2023 08:58</date>
 
 <div class="wimage">
-	<img class="wimageimage" src="../../_resources/ecd8e57d98dab80cbb11466ebdb52c82-1.png">
+	<img class="wimageimage" src="../../_resources/ecd8e57d98dab80cbb11466ebdb52c82.png">
 	<div class="wimagetext">
 
 $$f(x):=cos(x)$$
@@ -211,7 +211,7 @@ $\text { d.h. manche TR-Entwicklungen sind } \newline \text { nur in gewissen Be
 <br>
 
 2) Stelle die funktion sowie die Taylorpolynome mit 3. und 7. grad dar. Gib die geeigneten Bereiche der näherungen an.
-![c2a177ccd328722e786e0d44368031cd.png](../../_resources/c2a177ccd328722e786e0d44368031cd-1.png)
+![c2a177ccd328722e786e0d44368031cd.png](../../_resources/c2a177ccd328722e786e0d44368031cd.png)
 	a) Geeigneter bereich (3ter Grad): -1.2 bis 1.2
 	b) Geeigneter bereich (7ter Grad): -3, +3
 
@@ -222,9 +222,25 @@ $\text { d.h. manche TR-Entwicklungen sind } \newline \text { nur in gewissen Be
 	b) 7ter Grad: 0.49
 wirklicher wert: 0.5
 Während der Wert der Annäherungsfunktion 7ten grades noch benützbar ist, kann der Wert der funktion mit Ableitung 3ten grades überhaupt nicht mehr verwendet werden, da dieser fast das Gegenteil des eigentlichen ergebnisses ist.
-![eaae965055e869f13b596474468d1a58.png](../../_resources/eaae965055e869f13b596474468d1a58-1.png)
+![eaae965055e869f13b596474468d1a58.png](../../_resources/eaae965055e869f13b596474468d1a58.png)
 
 #### 3.36a)
-![1e5e5430334c66a51e681066bcc43151.png](../../_resources/1e5e5430334c66a51e681066bcc43151-1.png)
+![1e5e5430334c66a51e681066bcc43151.png](../../_resources/1e5e5430334c66a51e681066bcc43151.png)
 
 
+## Beispiel
+$$
+y = ^3\sqrt { { 1 \over 1 - x } }
+$$
+TR 2. Grades
+
+<br>
+
+$$
+t_{ (x) } = \sum^{ \inf }_{ i=0 } a_i * x^i, a_i = { f^{ (i) }_{ (0) } \over i! } \newline
+\ \newline
+t_{ 2 (x) } = a_0 + a_1 x + a_2 x^2 \newline
+= 1 = y_{ (0) } * y' = -\frac 1 3 * ( 1 - x )^{ -\frac 4 3 } * (-1) \newline
+\ \newline
+a_1 = \frac 1 3
+$$

@@ -97,7 +97,7 @@ altitude: 0.0000
     	padding: 2px;
     }
 </style>
-![Linux Distro Families](../../_resources/drawio-{_sketch__false}-1)
+![Linux Distro Families](../../_resources/drawio-{_sketch__false}-2)
 # Die Linux-SHELL
 * Meist: Bash (<mark style="background: #5fb236; color: white">Bourne</mark> Again Shell)
   * **C**ommand **L**ine **I**nterface

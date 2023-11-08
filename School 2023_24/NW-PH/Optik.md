@@ -99,7 +99,7 @@ altitude: 0.0000
 # Optik
 Berechnung an einzelner spärischer Fläche
 
-![Reflektierung in einem kreis](../../_resources/drawio-{_sketch__false})
+![Reflektierung in einem kreis](../../_resources/drawio-{_sketch__false}-1)
 $$
 { \sin(\alpha) \over \sin(\beta) } = { n_{ P_L } \over n_L } \newline \ \newline
 \sin(\alpha) = \frac G r \implies \alpha = \arcsin \bigg( { 2 \over 3.6 } \bigg) = 33.75° \newline \ \newline

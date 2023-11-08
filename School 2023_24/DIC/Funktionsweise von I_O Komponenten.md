@@ -93,6 +93,6 @@ altitude: 0.0000
 </style>
 # Überblick
 Ein µC-System besteht aus mehreren Komponenten:
-![µC Funktion](../../_resources/drawio-{_sketch__false}-2)
+![µC Funktion](../../_resources/drawio-{_sketch__false})
 
 d

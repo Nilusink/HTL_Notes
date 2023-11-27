@@ -1,6 +1,6 @@
 ---
 title: Taylorreihen
-updated: 2023-11-06 08:21:36Z
+updated: 2023-11-12 17:39:58Z
 created: 2023-09-18 06:57:55Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -237,7 +237,7 @@ TR 2. Grades
 <br>
 
 $$
-t_{ (x) } = \sum^{ \inf }_{ i=0 } a_i * x^i, a_i = { f^{ (i) }_{ (0) } \over i! } \newline
+t_{ (x) } = \sum^{ \infty }_{ i=0 } a_i * x^i, a_i = { f^{ (i) }_{ (0) } \over i! } \newline
 \ \newline
 t_{ 2 (x) } = a_0 + a_1 x + a_2 x^2 \newline
 = 1 = y_{ (0) } * y' = -\frac 1 3 * ( 1 - x )^{ -\frac 4 3 } * (-1) \newline

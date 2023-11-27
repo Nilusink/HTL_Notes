@@ -1,6 +1,6 @@
 ---
 title: The Concepts of Distribution and Density in Geography
-updated: 2023-10-04 06:46:56Z
+updated: 2023-11-15 08:24:15Z
 created: 2023-09-15 08:19:28Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -233,7 +233,7 @@ $\implies$ slowly increasing population
 birthrates and death rates remain low, fluctuating slightly
 $\implies$ quite steady population
 
-## Crizicism about this model
+## Criticism about this model
 * situation is siplified
 * assumption: population change results mainly from an increase in industrialisation
 

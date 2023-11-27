@@ -1,7 +1,7 @@
 ---
-title: Fourier Analyse
-updated: 2023-11-27 09:41:06Z
-created: 2023-11-06 09:29:53Z
+title: Textinterpretation
+updated: 2023-11-08 10:44:16Z
+created: 2023-11-08 10:01:13Z
 latitude: 47.26921240
 longitude: 11.40410240
 altitude: 0.0000
@@ -46,6 +46,8 @@ altitude: 0.0000
 		border-radius: 2.2vw;
 		padding: 2.2vw;
 		margin: 1.1vw;
+    	margin-top: 5vw;
+    	margin-bottom: 5vw;
 		color: white;
 		
 		transition: all .3s cubic-bezier(0, 1.3, .8, 1.3);
@@ -92,44 +94,34 @@ altitude: 0.0000
 	.deftitle {
 		color: #FFCF38;
 		font-weight: bold;
-		font-size: 2vw;
+		font-size: 3vw;
 	}
+    .defpron {
+    	color: #FACA32;
+        font-weight: 100;
+    	font-size: 1.8vw;
+    }
       mark {
 		border-radius: 5px;
     	padding: 2px;
     }
 </style>
+Eine Textinterpretation beschäftigt sich nur mit fiktionalen Texten. zumeist Erzählungen, Kurzgeschichten oder Gedichten.
+Sie baut auf einer Textanalyse (Analyse von Inhalt, Form und Sprache) auf und versucht den literarischen  Text zu interpretieren.
 
-![Einführung Fourier Analyse](../../_resources/88fafd0674df3717a9af34da46f91ba0.png)
-B.S. 64
-$$
-\Large f(t) = { a_0 \over 2 } + \sum^{ \infty }_{ n=1 } ( a_n * \cos( n \omega_0 t ) + b_n * \sin( n \omega_0 t) ) \ \bigg |_{ \Large { \omega_0 = { 2\pi \over T } } } \newline
-\ \newline
-a_0 = \frac 2 T * \int_{ 0 }^{ \text { periodendauer } } { f }
-$$
+<div class="infobox">
+  <div class="deftitle">in·ter·pre·tie·ren</div>
+  <div class="defpron">/interpretiéren/</div>
 
-## 3.43b
-(BS. 63)
+1) einen Text, o. Ä. inhaltlich erklären, erläutern, deuten
+2) etwas als etwas verstehen, auffassen; jemandes Verhalten, Äußerungen o. Ä. in bestimmter Weise deuten, auslegen
+</div>
 
-![Trapezkurve](../../_resources/3760658494adde3fb613dbb77980a167.png)
-$$
-T = 3\newline
-\ \newline \ \newline
-\text { Gerader Teil } \newline
-y = 2 \newline
-\ \newline \ \newline
-\text { Gefälle (Periode von -1 bis 2)} \newline
-y = -2 x + 0 \newline
-\ \newline \ \newline
-a_0 = \frac 2 T * \int_{ -1 }^{ 2 } f(x) \newline
-\ \newline \ \newline
-\text { Aus dem Buch: } \newline
-a(n) \, := \frac 2 T * \int_{ -1 }^{ 2 } f(x) * \cos(n * w * x) \newline \ \newline
-b(n) \, := \frac 2 T * \int_{ -1 }^{ 2 } f(x) * \sin(n * w * x) \newline \ \newline
-t(x) \, :={ a_0 \over 2 } + \sum_{ 1 }^{ 10 } (a(n) * cos(n*w*x) + b(n) * sin(n*w*x), n, 1, 10)
-$$
-![Geogebra](../../_resources/c8acf517cbcbcfd5c5024cb84030e746.png)
-
-
-[Bsp. 3.43](../../_resources/27_11_2023.ggb)
+# Lyrik
+### Merkmale
+* Reime
+* lebend
+* Ge<mark style="background: #f19837">dicht</mark> $\implies$ verdichten
+* unterhaltsam
+* Rythmus
 

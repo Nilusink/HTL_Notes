@@ -1,6 +1,6 @@
 ---
 title: Inter-VLAN Routing (ACLs)
-updated: 2023-10-20 09:53:04Z
+updated: 2023-11-10 13:07:42Z
 created: 2023-10-20 09:50:44Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -93,3 +93,26 @@ altitude: 0.0000
 		background: #333;
 	}
 </style>
+#### standard
+```Perl
+enable
+    conf t
+      access-list <standard (1-99)|extended  (100-199)> <deny|permit|remark> <ip|any|host>
+      access-list 1 deny 192.168.10.0 0.0.0.255
+      
+      interface gigabitEthernet 0/0/0.10
+          ip access-group 1 in
+```
+
+### extended
+```Perl
+enable
+    conf t
+        access-list 100 <deny|permit|remark> <udp|tcp> <ip|any|host> <mask> <criteria> \
+            <protocol|port> <ip|any|host>
+        access-list 100 deny tcp 192.168.10.0 0.0.0.255 eq 80
+        access-list 100 permit ip any any
+        
+        interface gigabitEthernet 0/0/0.10
+            i paccess-group 1 in
+```

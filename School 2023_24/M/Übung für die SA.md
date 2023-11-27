@@ -1,16 +1,11 @@
 ---
 title: Übung für die SA
-updated: 2023-11-08 08:58:27Z
+updated: 2023-11-12 17:40:53Z
 created: 2023-11-06 08:26:45Z
 latitude: 47.26921240
 longitude: 11.40410240
 altitude: 0.0000
 ---
-
-<!-- jarvis-summary-start -->
-# Summary
-The note discusses the concepts of distribution and density in geography. It explains that distribution refers to the way people are spread out across the surface, often shown through a dot map, while density refers to the number of people living in a certain area, usually shown through a choropleth map. The note also highlights the factors that affect distribution and density, including physical factors like relief and climate, and human factors like social and economic factors. Additionally, the note introduces the demographic transition model, which explains population growth patterns in different stages, with factors like birth rates, death rates, and societal changes playing a role.
-<!-- jarvis-summary-end -->
 
 <style>
 	body {

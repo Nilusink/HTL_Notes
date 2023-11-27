@@ -1,11 +1,12 @@
 ---
 title: Labor
-updated: 2023-09-27 09:36:45Z
+updated: 2023-11-20 15:12:00Z
 created: 2023-09-19 09:27:38Z
 latitude: 47.26921240
 longitude: 11.40410240
 altitude: 0.0000
 ---
+
 
 ```Perl
 enable

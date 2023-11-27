@@ -1,6 +1,6 @@
 ---
 title: Optik
-updated: 2023-09-29 10:30:06Z
+updated: 2023-11-10 11:23:09Z
 created: 2023-09-29 10:08:04Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -99,7 +99,7 @@ altitude: 0.0000
 # Optik
 Berechnung an einzelner spärischer Fläche
 
-![Reflektierung in einem kreis](../../_resources/drawio-{_sketch__false}-1)
+![Reflektierung in einem kreis](../../_resources/drawio-{_sketch__false})
 $$
 { \sin(\alpha) \over \sin(\beta) } = { n_{ P_L } \over n_L } \newline \ \newline
 \sin(\alpha) = \frac G r \implies \alpha = \arcsin \bigg( { 2 \over 3.6 } \bigg) = 33.75° \newline \ \newline
@@ -125,3 +125,15 @@ achsnahe Strahlen => $y \approx f$
 $$
 { n_{ p_L } \over n_L } = { \sin(\alpha) \over \sin(\beta) } = { f \over f-r } \implies f * { n_{ p_L } \over n_L } - r * { n_{ p_L } \over n_L } = f
 $$
+<br><br>
+
+***
+<br><br>
+$$
+\Large \frac 1 f = \frac 1 b + \frac 1 g \newline
+\ \newline
+f ... Brennweite
+$$
+
+![drawio](../../_resources/drawio-{_sketch__true}-3)
+x

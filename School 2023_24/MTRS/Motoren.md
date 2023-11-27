@@ -1,6 +1,6 @@
 ---
 title: Motoren
-updated: 2023-10-03 10:52:24Z
+updated: 2023-11-21 12:46:43Z
 created: 2023-09-18 08:03:53Z
 ---
 
@@ -101,10 +101,10 @@ Je nach Art bzw. der Bewegung des Kühlediums unterscheidet man zwischen Selbst-
 
 <br>
 
-|Selbstkühlung|Eigenkühlug|Fremdkühlung|
-|-------------|-----------|------------|
-|Die Kühlung erfolgt durch die natürliche Luftbewegung bzw. durch Wärmeabstrahlung.|Ein auf der Läuferwelle angebrachter bzw. von dieser, angetriebener Lüfter ist für die Kühlung verantwortlich.|Die Maschiene wird entweder mit einem Zusatzaggregat, welches einen Lüfter antreibt, oder durch ein anderes fremdbewegtes Kühlmittel (Öl) gekühlt|
-|_unbelüftet_|_eigenbelüftet_|_fremdbelüftet_|
+| Selbstkühlung                                                                      | Eigenkühlug                                                                                                    | Fremdkühlung                                                                                                                                      |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Die Kühlung erfolgt durch die natürliche Luftbewegung bzw. durch Wärmeabstrahlung. | Ein auf der Läuferwelle angebrachter bzw. von dieser, angetriebener Lüfter ist für die Kühlung verantwortlich. | Die Maschiene wird entweder mit einem Zusatzaggregat, welches einen Lüfter antreibt, oder durch ein anderes fremdbewegtes Kühlmittel (Öl) gekühlt |
+| _unbelüftet_                                                                       | _eigenbelüf	tet_                                                                                               | _fremdbelüftet_                                                                                                                                   |
 
 
 ### Betriebsarten
@@ -113,18 +113,18 @@ Die Betriebsart stellt die Leistungsabgabe des Motors in Abhängigkeit der Zeit 
 Die Beetriebsart in der Anwendung ist bei der Auswahl zu beachten.
 
 Es gibt neun verschiedene Betriebsarten (S1 bis S9)
-|||
-|-|-|
-|S 1|Dauerbetrieb|
-|S 2|Kurzzeitbetrieb|
-|S 3|periodischer|
-|S 4|periodischer Aussetzbetrieb mit Einfluss des Anlaufvorganges|
-|S 5|periodischer Aussetzbetrieb mit Einfluss des Anlaufvorganges und Aussetzbetrieb ohne Einfluss des Anlaufvorganges|
-|S 6|ununterbrochener periodischer Betrieb mit Aussetzbelastung|
-|S 7|ununterbrochener periodischer Betrieb mit Anlauf und elek. Bremsung|
-|S 8|ununterbrochener periodischer Betrieb mit periodischer Drehzahländerung|
-|S 9|Betrieb mit nicht periodischer Last- und Drehzahländerung|
-|S 10|Betrieb mit einzelnen konstanten Belastungen|
+|      |                                                                                                                   |
+| ---- | ----------------------------------------------------------------------------------------------------------------- |
+| S 1  | Dauerbetrieb                                                                                                      |
+| S 2  | Kurzzeitbetrieb                                                                                                   |
+| S 3  | periodischer                                                                                                      |
+| S 4  | periodischer Aussetzbetrieb mit Einfluss des Anlaufvorganges                                                      |
+| S 5  | periodischer Aussetzbetrieb mit Einfluss des Anlaufvorganges und Aussetzbetrieb ohne Einfluss des Anlaufvorganges |
+| S 6  | ununterbrochener periodischer Betrieb mit Aussetzbelastung                                                        |
+| S 7  | ununterbrochener periodischer Betrieb mit Anlauf und elek. Bremsung                                               |
+| S 8  | ununterbrochener periodischer Betrieb mit periodischer Drehzahländerung                                           |
+| S 9  | Betrieb mit nicht periodischer Last- und Drehzahländerung                                                         |
+| S 10 | Betrieb mit einzelnen konstanten Belastungen                                                                      |
 
 (Quelle: [Elektro Kahlhorn](https://www.elektro-kahlhorn.de/betriebsart-einschaltdauer:_:320.html))
 

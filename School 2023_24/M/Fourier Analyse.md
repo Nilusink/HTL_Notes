@@ -1,6 +1,6 @@
 ---
 title: Fourier Analyse
-updated: 2023-11-27 09:41:06Z
+updated: 2023-12-04 09:10:42Z
 created: 2023-11-06 09:29:53Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -133,3 +133,25 @@ $$
 
 [Bsp. 3.43](../../_resources/27_11_2023.ggb)
 
+Für das Ergebnis ("Spektrum") wird meist die "Amplituden-Phasen form" verwendet (Buch S. 70) = 
+$$
+A_0 + \sum_{ n = 1 }^{ \infty } A_n + \sin ( n * \omega_0 * t + \phi_n)
+$$
+
+##### "Amplituden- & Phasenspektrum": 
+![648e58596708623354046812db43a3f9.png](../../_resources/648e58596708623354046812db43a3f9.png)
+$$
+\phi_n = 0 \implies \text { reiner Snus } \newline
+\phi_n = \pm \frac \pi 2 \implies reiner Cosinus
+$$
+
+#### Übung
+Bsp 3:
+$$
+f_{ (t) } ... "Einweg-Gleichrichter"
+$$
+* FR ?
+* Spektrum
+
+![8f86532fec0196122b94c839d82054d5.png](../../_resources/8f86532fec0196122b94c839d82054d5.png)
+a~1~ und b~1~ mussten extra ausgerechnet werden, da geogebra keine allgemeine Formel fand, sondern nur eine die ab 2 gilt.

@@ -1,7 +1,7 @@
 ---
-title: Optik
-updated: 2023-11-10 11:23:09Z
-created: 2023-09-29 10:08:04Z
+title: Vocabulary / translation
+updated: 2023-12-20 07:45:37Z
+created: 2023-12-20 07:32:16Z
 latitude: 47.26921240
 longitude: 11.40410240
 altitude: 0.0000
@@ -46,6 +46,8 @@ altitude: 0.0000
 		border-radius: 2.2vw;
 		padding: 2.2vw;
 		margin: 1.1vw;
+    	margin-top: 5vw;
+    	margin-bottom: 5vw;
 		color: white;
 		
 		transition: all .3s cubic-bezier(0, 1.3, .8, 1.3);
@@ -73,14 +75,12 @@ altitude: 0.0000
 		align-items: center;
 		padding: 1.1vw;
 
+		display: flex;
 	}
 	.wimagetext {
 		flex: 3;
 		margin-left: 2.2vw;
 		color: black;
-	}
-	.wimagetext:hover {
-		flex: 5;
 	}
 	.wimageimage {
 		flex: 2;
@@ -91,49 +91,41 @@ altitude: 0.0000
 	tr {
 		background: #333;
 	}
-    mark {
+	.deftitle {
+		color: #FFCF38;
+		font-weight: bold;
+		font-size: 3vw;
+	}
+    .defpron {
+    	color: #FACA32;
+        font-weight: 100;
+    	font-size: 1.8vw;
+    }
+      mark {
 		border-radius: 5px;
     	padding: 2px;
     }
 </style>
-# Optik
-Berechnung an einzelner spärischer Fläche
 
-![Reflektierung in einem kreis](../../_resources/drawio-{_sketch__false})
-$$
-{ \sin(\alpha) \over \sin(\beta) } = { n_{ P_L } \over n_L } \newline \ \newline
-\sin(\alpha) = \frac G r \implies \alpha = \arcsin \bigg( { 2 \over 3.6 } \bigg) = 33.75° \newline \ \newline
-\beta = \arcsin \bigg ( { n_L \over n_{ p_L } } * \sin(\alpha) \bigg ) = \arcsin({ 1 \over 1.43 } * \sin(33.75°) \bigg ) = 21.9°
-$$
+# Vocabulary / translation
+a) As he was  **conducting** the study, he found a lot of interesting **findings**. <date>3.5 / 3.5</date>
+b) These **sculptors** have been **admired** for (a) long (time). <date>2.5 / 3.5</date>
+c) The movie is **renowned** for its **plot** and is **considered** important. <date>3 / 3.5</date>
+d) Even if you don't like **villain stories**, I'd like to recommend this **gripping** book. <date>4 / 4</date>
+e) Don't always **encourage** her to show her **extraordinary skills**. <date>2.5 / 3.5</date>
 
-<br>
-
-$$
-\gamma = 180 - 90 - \alpha = 34.25° \newline
-\delta = 180 - 90 - \gamma - \beta = 11.8° \newline
-\tan(\delta) = \frac G x
-$$
+* domestic
+* nosiness / curiosity
+* pay rise
+* a bunch of flowers
+* regret
+* deficency / shortage
 
 <br>
 
-Sinussatz Dreieck AFM
-$$
-{ \sin(\beta) \over f - r } =  { \sin(180-\alpha) \over y } = { \sin(\alpha) \over y }
-$$
+<or>18 / 24</or>
 
-achsnahe Strahlen => $y \approx f$
-$$
-{ n_{ p_L } \over n_L } = { \sin(\alpha) \over \sin(\beta) } = { f \over f-r } \implies f * { n_{ p_L } \over n_L } - r * { n_{ p_L } \over n_L } = f
-$$
-<br><br>
-
-***
-<br><br>
-$$
-\Large \frac 1 f = \frac 1 b + \frac 1 g \newline
-\ \newline
-f ... Brennweite
-$$
-
-![drawio](../../_resources/drawio-{_sketch__true}-5)
-x
+Key:
+**15.5 - 18: 3**
+18.5 - 20: 2
+20.5 - 24: 1

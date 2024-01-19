@@ -1,6 +1,6 @@
 ---
 title: The Concepts of Distribution and Density in Geography
-updated: 2023-11-15 08:24:15Z
+updated: 2023-12-15 10:17:05Z
 created: 2023-09-15 08:19:28Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -99,6 +99,12 @@ The note discusses the concepts of distribution and density in geography. It exp
 		font-weight: bold;
 		font-size: 2vw;
 	}
+      .defpron {
+    	color: #FACA32;
+        font-weight: 100;
+    	font-size: 1.8vw;
+    }
+
       mark {
 		border-radius: 5px;
     	padding: 2px;

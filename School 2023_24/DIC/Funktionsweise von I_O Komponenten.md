@@ -1,6 +1,6 @@
 ---
 title: Funktionsweise von I/O Komponenten
-updated: 2023-11-17 12:30:34Z
+updated: 2023-11-29 11:16:52Z
 created: 2023-11-06 10:17:34Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -266,3 +266,9 @@ Mit Hilfe der capture-Funktion ermittelt das System, wann ein externes Signal st
 * nach dem Starten des Timers wurde beim Zählstand von 103 am Capture-eingang eine positive Flanke registriert und der Zählstand gespeichert
 * Ergebnis: die Flanke trat nach 103µs auf
 
+# Counter
+## Allgemein
+Asfinag würde David nicht anstellen (mentale Probleme).
+
+##### Takt
+Dieser wird of auch extern realisiert.

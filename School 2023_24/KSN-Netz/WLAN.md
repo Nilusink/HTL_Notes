@@ -1,7 +1,7 @@
 ---
-title: Optik
-updated: 2023-11-10 11:23:09Z
-created: 2023-09-29 10:08:04Z
+title: WLAN
+updated: 2024-01-12 13:01:35Z
+created: 2024-01-12 12:25:28Z
 latitude: 47.26921240
 longitude: 11.40410240
 altitude: 0.0000
@@ -46,6 +46,8 @@ altitude: 0.0000
 		border-radius: 2.2vw;
 		padding: 2.2vw;
 		margin: 1.1vw;
+    	margin-top: 5vw;
+    	margin-bottom: 5vw;
 		color: white;
 		
 		transition: all .3s cubic-bezier(0, 1.3, .8, 1.3);
@@ -73,14 +75,12 @@ altitude: 0.0000
 		align-items: center;
 		padding: 1.1vw;
 
+		display: flex;
 	}
 	.wimagetext {
 		flex: 3;
 		margin-left: 2.2vw;
 		color: black;
-	}
-	.wimagetext:hover {
-		flex: 5;
 	}
 	.wimageimage {
 		flex: 2;
@@ -91,49 +91,39 @@ altitude: 0.0000
 	tr {
 		background: #333;
 	}
-    mark {
+	.deftitle {
+		color: #FFCF38;
+		font-weight: bold;
+		font-size: 3vw;
+	}
+    .defpron {
+    	color: #FACA32;
+        font-weight: 100;
+    	font-size: 1.8vw;
+    }
+      mark {
 		border-radius: 5px;
     	padding: 2px;
     }
 </style>
-# Optik
-Berechnung an einzelner spärischer Fläche
+* shared medium
+  *	kann von mehreren Geräten genutzt werden
+ 
+ <br>
+ 
+| pro            | con                                          |
+| -------------- | -------------------------------------------- |
+| geringe kosten | nur ein sender + empfänger = half duplex     |
+| keine kabel    | Je mehr Teilnehmer desto weniger Bandbreite. |
 
-![Reflektierung in einem kreis](../../_resources/drawio-{_sketch__false})
-$$
-{ \sin(\alpha) \over \sin(\beta) } = { n_{ P_L } \over n_L } \newline \ \newline
-\sin(\alpha) = \frac G r \implies \alpha = \arcsin \bigg( { 2 \over 3.6 } \bigg) = 33.75° \newline \ \newline
-\beta = \arcsin \bigg ( { n_L \over n_{ p_L } } * \sin(\alpha) \bigg ) = \arcsin({ 1 \over 1.43 } * \sin(33.75°) \bigg ) = 21.9°
-$$
+## Details zum Medium
+EM Wellen in Folgenden Frequenzbereichen:
+* 2.4 GHz
+* 5 GHz
+* 6 GHz
+* 60 GHz
 
-<br>
+Kanalbereich abhängig vom Land in dem man sich befindet
+Kanalabstand is 5MHz
 
-$$
-\gamma = 180 - 90 - \alpha = 34.25° \newline
-\delta = 180 - 90 - \gamma - \beta = 11.8° \newline
-\tan(\delta) = \frac G x
-$$
-
-<br>
-
-Sinussatz Dreieck AFM
-$$
-{ \sin(\beta) \over f - r } =  { \sin(180-\alpha) \over y } = { \sin(\alpha) \over y }
-$$
-
-achsnahe Strahlen => $y \approx f$
-$$
-{ n_{ p_L } \over n_L } = { \sin(\alpha) \over \sin(\beta) } = { f \over f-r } \implies f * { n_{ p_L } \over n_L } - r * { n_{ p_L } \over n_L } = f
-$$
-<br><br>
-
-***
-<br><br>
-$$
-\Large \frac 1 f = \frac 1 b + \frac 1 g \newline
-\ \newline
-f ... Brennweite
-$$
-
-![drawio](../../_resources/drawio-{_sketch__true}-5)
-x
+Nach Möglichkeit keine überlappenden Kanäle.

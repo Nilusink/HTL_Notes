@@ -1,6 +1,6 @@
 ---
 title: Grundlagen digitaler Signalverarbeitung
-updated: 2024-01-19 13:30:05Z
+updated: 2024-01-22 10:23:33Z
 created: 2023-12-04 09:53:12Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -87,9 +87,6 @@ altitude: 0.0000
 	}
 	.wimageimage:hover {
 		flex: 3;
-	}
-	tr {
-		background: #333;
 	}
 </style>
 # Motivation
@@ -398,3 +395,44 @@ $$
 Betrachten wir das Spektrum des abgetasteten Signals ergibt sich dieses Kriterium automatisch, um das Eingangssignal nicht durch "falsche" Frequenzanteile zu verfälschen.
 
 Somit ist auch der Eingangstiefpass in der Prinzipschaltung am Kapitelbeginn erklärt. Er sorgt dafür, dass das Abtasttheorem eingehalten wird.
+
+## Aliasfrequenz
+Wird das Abtasttheorem nicht eingehalten, entstehen sogenannte Alias-Frequezen. Diese können etwa bei unserem Oszilloskopen im Labor beobachtet werden - oder bei den Kutschenrädern im alten Westen.
+
+Berechnung der Alias-Frequenz:
+Sei $f_a = 1kHz$, so muss nach Shannon die maximale Signalfrequenz kleiner als 500Hz sein. Ist sie es nicht, ergeben sich Aliasfrequenzen nach folgendem Schema:
+$$
+f_{ Alias } = \left | n \circ f_a \pm f \right | \text { mit } n = 1,2,3,...
+$$
+Würde ein 600Hz-Signal abgetastet werden, ergeben sich
+Aliasfrequenzen mit $1kHz\pm600Hz$, $2kHz\pm600Hz$, usw.
+
+# Digitale Filter
+Nachdem das S&H-Signal vom ADC konvertiert wurde, steht es als digitaler Wert dem µC zur Verfügung. Dieser kann es nun mit beliebigen Algorithmen bearbeiten.
+
+Zum Beispiel:
+$$
+y = \sum_{ n=0 }^{ k } \text { Faktor }_n \circ \text { Abtastwert }_n = a_0 \circ x_0 + a_1 \circ x_1 + a_2 \circ x_2 + ...
+$$
+
+Der Wert von y kannĕispielweise wieder mittels eines DAC in ein analoges Signal gewandelt und ausgegeben werden. Wie wir in den letzten Kapiteln gesehen haben, ist allerdings das Spektrum des so erzeugten analogen Ausgangssignales unendlich. Es muss daher auf jeden Fall mit Hilfe eines analogen Tiefpasses auf den Frequenzbereich des Eingangssignales begrenzt werden $\left (f_g < { f_a \over 2 } \right )$
+
+Wie im analogen Bereich gibt es digitale Filter mit TP, HP, BP und BS Verhalten. Es kännen allerdings auch im Analogen nicht realisierbare Filter erzeugt werden.
+
+## eine einfache Annäherung
+BBetrachen wir einen nalogen Tiefpass. Ein Dirac-Impuls am Eingang führt zu einer entsprechenden Impuls-Antwort am Ausgang.
+Uns interessieren nur die Werte der Impuls-Antwort zu den Zeitpunkten nxT~a~.
+
+| n   | U(nxTs) |
+| --- | ------- |
+| 0   | 1.000   |
+| 1   | 0.368   |
+| 2   | 0.135   |
+| 3   | 0.050   |
+| 4   | 0.018   |
+
+Um das Ausgangssignal zu berechnen, welches ja aus der Summe der gewichteten Eingangssignale besteht, ist noch die Anzahl der Summanden fest zu legen. In diesem Fall sind es 5.
+
+$$
+U_{ out } (n) = 1 \circ U_{ in }(n) + 0.37 \circ U_{ in }(n-1) + 0.14 \circ U_{ in }(n-2) + 0.05 \circ U_{ in }(n-3) + 0.02 \circ U_{ in }(n-4)
+$$

@@ -1,6 +1,6 @@
 ---
 title: Differentialgleichungen
-updated: 2024-01-09 09:28:57Z
+updated: 2024-01-22 09:39:02Z
 created: 2024-01-08 08:37:15Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -222,3 +222,138 @@ y' = 3 - 0.5y \newline
 $$
 
 HÜ: foto von lilo
+
+### WH
+$$
+y' + 3y = 0 \newline \, \newline
+{ dy \over dx } = -3y \newline \, \newline
+\int \frac 1 y dy = \int -3 dx \newline \, \newline
+\ln (|y|) = -3x + c \newline \, \newline
+y = e^{ -3x + c } = \underbrace { \widetilde c }_{ > 0 } * e^{ -3x }
+$$
+
+### WH
+direkt proportional: $y = k * x$
+indirekt poportional: $y = c * \frac 1 x$
+
+### Übung
+BS 84
+#### 4.8
+Die Steigung der Tangente an eine Funktion is in jedem Punkt p(x|y)
+#### a)
+gleich dem Quadrat der x-Koordinate
+$$
+f'(x) = x^2 \newline \, \newline
+f(x) = \int x^2 = { x^3 \over 3 } + C
+$$
+
+#### d)
+$$
+f'(x) = { 1 \over x * y}
+$$
+
+#### 4.6)
+buch
+#### 4.10a)
+Beim freien Fall im Vakuum ist die Änderung der Geschwindigkeit v in Abhängigkeit von der Höhe h indirekt proportional zur Wurzel aus der Höhe.
+$$
+{ dv \over dh } = { k \over \sqrt { h } }
+$$
+
+#### 4.10b)
+Wird eine Wachsschicht der Dicke d gleichmäßig erwärmt, so ist die Änderung der Dicke mit der Zeit direkt proportional zur momentanen Wachsdichte.
+$$
+{ dr \over dt } = k * r
+$$
+
+#### 4.10c)
+Die Änderung  des Dampfdrucks p mit der Temperatur T ist für eine bestimmte Substanz direkt proportional zum Dampfdruck und indirekt proportional zum Quadrat der Temperatur.
+$$
+{ dp \over dT } = k * { p \over T^2 }
+$$
+
+#### Beispiel
+Änderung der Anzahl von Kernen mit der Zeit ist proportional zur Anzahl.
+#### a)
+Dgl = ${ dN \over dt } = kN$
+#### b)
+allgemeine Lösung für anfangs N~0~ Kerne
+$$
+\int \frac 1 N dN = \int k dt \newline \, \newline
+ln(N) = k * t + C \newline \, \newline
+N_{ (t) } = \widetilde c * e^{ k * t } \newline \, \newline \, \newline
+N_{ (0) } = N_0 = \widetilde c * 1 \implies N_{ (t) } = N_0 * e^{ k * t }
+$$
+#### c)
+spezielle Lösung für HWZ = 5370
+$$
+Hwz \implies { N_0 \over 2 } = N_0 * e^{ k * 5370 } \implies k = { \ln (0.5) \over 5370 } = -0.00029
+$$
+
+### Heizungstechnik
+#### a)
+In einem bestimmten Zimmer steigt nach dem Einschalten der Heizung die Temperatur T an. Der Verlauf der Temperatur T kann modellhaft durch die nachstehende Differenzialgleichung beschrieben werden.
+$$
+{ dT \over dt } = a * (b - T) \newline \, \newline
+t ... \text { Zeit nach dem Einschalten der Heizung in min } \newline
+T(t) ... \text { Temperatur im Zimmer zur Zeit t in °C } \newline
+a, b ... \text { Parameter }
+$$
+#### a1)
+Geben Sie die zugehörige homogene Differenzialgleichung an. (einfach störungsglied wecklassen)
+$$
+{ dT \over dt } = a * b - a * T \newline \, \newline
+{ dT \over dt } = -a*T
+$$
+
+#### a2)
+es wurde bereits ein speziefischer Wert eingesetzt.
+$$
+\Large T_n = c * e^{ -{ t \over 10 } } \large \implies a = ?
+$$
+$$
+{ dT \over dt } = -a * T \newline \, \newline
+\int \frac 1 T \, dT = \int -a \, d t \newline \, \newline
+\ln(T) = -a * t + c \newline \, \newline
+T_n = e^{ -a * t } * \widetilde c
+$$
+wird dies nun mit der Aufgabenstellung verglichen, eribt sich:
+$$
+a = \frac 1 { 10 }
+$$
+
+#### 4.18
+$$
+s''(t) = a \newline \, \newline \, \newline
+a = 0.5 \newline
+v_0 = 1 \newline
+s_0 = 2
+$$
+
+1x Integrieren
+$$
+s' = 0.5 * t + c = 0.5 * t + v_0
+$$
+
+2x Integrieren
+$$
+s = { 0.5 * t^2 \over 2} + v_0 * t + s_0 = 0.25t^2 + t + 2
+$$
+
+#### b)
+$$
+a = 0 \newline
+v_0 = 15 \newline
+s_0 = 120 \newline
+$$
+$$
+s' = \int a \, dt = 0 + c = 15 \newline \, \newline
+s = \int s' \, dt = 15 * t + 120
+$$
+
+<div class="merke">
+
+### HÜ:
+1x von S.87
+1x von S.88-92
+</div>

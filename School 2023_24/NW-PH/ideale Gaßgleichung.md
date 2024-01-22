@@ -1,6 +1,6 @@
 ---
 title: ideale Gaßgleichung
-updated: 2024-01-19 11:28:49Z
+updated: 2024-01-19 13:46:15Z
 created: 2024-01-19 10:42:39Z
 latitude: 47.26921240
 longitude: 11.40410240
@@ -87,9 +87,6 @@ altitude: 0.0000
 	}
 	.wimageimage:hover {
 		flex: 3;
-	}
-	tr {
-		background: #333;
 	}
 	.deftitle {
 		color: #FFCF38;
